@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css"
 
 
+
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
 
@@ -23,8 +24,12 @@ function Navbar() {
               <span className='hamburger'></span>
             </button>
         </div>
+        <div>
+          
+        </div>
         <div className='links'>
-            <Link class="link" to="/"> About Me </Link>
+            <p className="name">Bill Hardgrove</p>
+            <Link class="link" to="/"> About </Link>
             <Link class="link" to="/Portfolio"> Portfolio </Link>
             <Link class="link" to="/Resume"> Resume </Link>
             <Link class="link" to="/Contact"> Contact </Link>

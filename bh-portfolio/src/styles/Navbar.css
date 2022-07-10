@@ -4,6 +4,24 @@
     height: 100px;
     background: white;
   }
+
+.name {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    font-size: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .name {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        justify-content: flex-start;
+        font-size: 1.5rem;
+        margin-top: -150px;
+    }
+}
   
   .links {
     width: 100%;
@@ -122,4 +140,3 @@
 }
 .hamburger::before { top: 6px; }
 .hamburger::after { bottom: 6px; }
- 
