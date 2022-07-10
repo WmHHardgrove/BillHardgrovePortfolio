@@ -1,4 +1,9 @@
 .paragraph {
     text-align: left;
     padding: 2%;
+    font-size: 1.5rem;
+}
+
+.header {
+    font-size: 4rem
 }
