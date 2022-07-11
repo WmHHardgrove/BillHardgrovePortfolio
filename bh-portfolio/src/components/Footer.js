@@ -1,6 +1,7 @@
 import React from 'react';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
+import git  from "../img/github.png";
+import insta from "../img/insta.png";
+import linkedin from "../img/linkedin.png";
 import "../styles/Footer.css"
 
 
@@ -10,12 +11,32 @@ function Footer() {
   return (
     <div className='footer'>
       <div>
-        <LinkedInIcon />
-        <GitHubIcon />
+        <a href="https://github.com/WmHHardgrove" target="_blank" rel="noreferrer">
+          <img
+            src= { git }
+            alt="git icon"
+          />
+        </a>
       </div>
-      <p> &copy; 2022 Bowtie Bill</p>
+      <div>
+        <a href="https://www.linkedin.com/in/bill-hardgrove-27768b53/" target="_blank" rel="noreferrer">
+          <img
+            src= { linkedin }
+            alt="linkedin icon"
+          />
+        </a>
+      </div>
+      <div>
+        <a href="https://www.instagram.com/wmhhardgroveiv/" target="_blank" rel="noreferrer">
+          <img
+            src= { insta }
+            alt="instagram icon"
+          />
+        </a>
+      </div>
     </div>
-  )
+  );
 }
 
 export default Footer
+
