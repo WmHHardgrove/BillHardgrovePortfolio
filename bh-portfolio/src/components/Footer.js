@@ -1,7 +1,7 @@
 import React from 'react';
-import git  from "../img/github.png";
-import insta from "../img/insta.png";
-import linkedin from "../img/linkedin.png";
+import git  from "../assets/github.png";
+import insta from "../assets/insta.png";
+import linkedin from "../assets/linkedin.png";
 import "../styles/Footer.css"
 
 

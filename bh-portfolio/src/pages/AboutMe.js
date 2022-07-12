@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../img/logo2.PNG'
+import logo from '../assets/logo2.PNG'
 import "../styles/AboutMe.css"
 
 function Experience() {

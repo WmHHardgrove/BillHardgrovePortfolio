@@ -33,7 +33,7 @@
     color: black;
   }
 
-  .link:hover { color: fuchsia; }
+  .link:hover { color: #ff00ff; }
 
   .link:focus { color: fuchsia; }
   

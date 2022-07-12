@@ -29,10 +29,10 @@ function Navbar() {
         </div>
         <div className='links'>
             <p className="name">Bill Hardgrove</p>
-            <Link class="link" to="/"> About </Link>
-            <Link class="link" to="/Portfolio"> Portfolio </Link>
-            <Link class="link" to="/Resume"> Resume </Link>
-            <Link class="link" to="/Contact"> Contact </Link>
+            <Link className="link" to="/"> About </Link>
+            <Link className="link" to="/Portfolio"> Portfolio </Link>
+            <Link className="link" to="/Resume"> Resume </Link>
+            <Link className="link" to="/Contact"> Contact </Link>
         </div>
     </div>
   )
