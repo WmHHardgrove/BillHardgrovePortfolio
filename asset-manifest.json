@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/BillHardgrovePortfolio/static/css/main.dae0c149.css",
+    "main.js": "/BillHardgrovePortfolio/static/js/main.898b66b5.js",
+    "static/js/787.e9d85d0b.chunk.js": "/BillHardgrovePortfolio/static/js/787.e9d85d0b.chunk.js",
+    "static/media/TheOneWiki.png": "/BillHardgrovePortfolio/static/media/TheOneWiki.a01b3a7e8c5d27bfd137.png",
+    "static/media/AtlasChefHomePage.png": "/BillHardgrovePortfolio/static/media/AtlasChefHomePage.f580d496cbe1469a257b.png",
+    "static/media/logo2.PNG": "/BillHardgrovePortfolio/static/media/logo2.7d7774a0f7ff804f9972.PNG",
+    "index.html": "/BillHardgrovePortfolio/index.html",
+    "main.dae0c149.css.map": "/BillHardgrovePortfolio/static/css/main.dae0c149.css.map",
+    "main.898b66b5.js.map": "/BillHardgrovePortfolio/static/js/main.898b66b5.js.map",
+    "787.e9d85d0b.chunk.js.map": "/BillHardgrovePortfolio/static/js/787.e9d85d0b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dae0c149.css",
+    "static/js/main.898b66b5.js"
+  ]
+}
