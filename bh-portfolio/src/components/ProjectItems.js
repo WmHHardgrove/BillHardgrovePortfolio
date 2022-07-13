@@ -1,14 +1,14 @@
 import React from 'react';
 import Git  from "../assets/github.png";
 import Link from "../assets/Link.png";
-import repo from "../pages/Portfolio";
-import live from "../pages/Portfolio";
+
 
 function ProjectItems({ image, name, repo, live}) {
   return (
     <div className='projectitems'>
       <div style={{ backgroundImage: `url(${image})`}} className="bImage" >
-      <h1 className='projname'> {name} </h1>
+       <h1 className='projname'> {name} </h1>
+       <div className='iconholder'>
         <a className='icons' href={ repo } target="_blank" rel="noreferrer" >
           <img
             src= { Git }
@@ -20,7 +20,9 @@ function ProjectItems({ image, name, repo, live}) {
             src= { Link }
             alt="Link Icon"
           />
-        </a>  
+        </a> 
+        </div>
+
     </div>
     </div>
   );

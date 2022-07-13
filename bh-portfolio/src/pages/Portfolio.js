@@ -12,7 +12,7 @@ function Portfolio() {
       <h1>My Projects</h1>
       <div className='projectList'>
         <ProjectItems name="The One Wiki" image={Wiki} repo="https://github.com/marcu0912/Lord-of-The-Rings-Character-Search" live="https://marcu0912.github.io/Project-1/" />
-        <ProjectItems name="Atlas Chef" image={Atlas} />
+        <ProjectItems name="Atlas Chef" image={Atlas} repo="https://github.com/GorillaJxnes/world-cookbook" live="https://atlas-chef-cookbook.herokuapp.com/" />
       </div>
     </div>
   );
