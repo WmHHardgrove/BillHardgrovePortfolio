@@ -29,7 +29,7 @@
   The Github repo is https://github.com/WmHHardgrove/BillHardgrovePortfolio
 
   ##  URL
- <img src="./bh-portfolio/src/img/appscreen.png" alt="main page screenshot">
+  <img src="./bh-portfolio/src/assets/appscreen.png" alt="About me landing page screenshot">
 
 
   ## Questions
